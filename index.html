@@ -3,10 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>私のホームページ</title>
+  <title>Tomo Okada | Research Page</title>
+  <meta name="description" content="岡田灯馬の研究ページ。研究内容、業績、発表、連絡先を掲載しています。">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ようこそ</h1>
-  <p>これは私の研究ページです。</p>
+  <header class="hero">
+    <nav class="nav">
+      <div class="nav-logo">Tomo Okada</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-subtitle">Research Page</p>
+      <h1>岡田 灯馬</h1>
+      <p class="hero-text">
+        凝縮系物理・強相関電子系・理論物理を中心に研究しています。<br>
+        研究テーマ、業績、発表資料などを掲載しています。
+      </p>
+      <div class="hero-buttons">
+        <a class="button primary" href="#research">研究内容を見る</a>
+        <a class="button secondary" href="#contact">連絡先</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="card">
+        <p>
+          ここに所属・学年・専門分野などを書いてください。<br>
+          例：東京大学大学院 ○○専攻 / 理論物理学 / 強相関電子系 / 高温超伝導 など
+        </p>
+        <p>
+          このページでは、研究概要、業績一覧、発表情報、連絡先をまとめています。
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>研究テーマ 1</h3>
+          <p>
+            たとえば、銅酸化物・ニッケル酸化物超伝導体、t-J模型、
+            slave-boson平均場理論、強相関電子系などについて説明します。
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>研究テーマ 2</h3>
+          <p>
+            数値計算、理論模型、相図解析、電子状態計算など、
+            自分の研究内容を簡潔にまとめます。
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>研究テーマ 3</h3>
+          <p>
+            将来的に図や論文PDFへのリンク、スライド資料へのリンクなども追加できます。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications & Presentations</h2>
+      <div class="card">
+        <ul class="publication-list">
+          <li>
+            <strong>発表タイトル 1</strong><br>
+            学会名・研究会名・年月
+          </li>
+          <li>
+            <strong>発表タイトル 2</strong><br>
+            学会名・研究会名・年月
+          </li>
+          <li>
+            <strong>論文タイトル 1</strong><br>
+            著者, 雑誌名, 巻, ページ, 年
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/thoma912" target="_blank" rel="noopener noreferrer">https://github.com/thoma912</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Tomo Okada. All rights reserved.</p>
+  </footer>
 </body>
 </html>
